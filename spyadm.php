@@ -202,10 +202,10 @@ function borra(doc,dir) {
     }
 }
 /*
-if (!isset($_SESSION["pwd"]) || sha1($_SESSION["pwd"]) != '2030abee0fb9718bf4eee0d1d3bcd091a3265900') {
+if (!isset($_SESSION["pwd"]) || sha1($_SESSION["pwd"]) != '46036bf7c32403d12d2e5078cb8981458ccd1819') {
     $_SESSION["pwd"] = getParam('pwd');
     $pwd = sha1(getParam('pwd'));
-    if ($pwd != '2030abee0fb9718bf4eee0d1d3bcd091a3265900') {
+    if ($pwd != '46036bf7c32403d12d2e5078cb8981458ccd1819') {
         echo "<style type='text/css'>div{width:50%;margin:0 auto}body{background-color:black}input{background-color:black}</style>
             <div><form method='POST'><div><input type='password' name='pwd'><input type='submit' value=''></form><div></div>";
         return;
